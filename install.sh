@@ -1,0 +1,1 @@
+curl https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.75.zip -o minecraft.zip && unzip minecraft.zip && sudo pacman -Sy --needed jre8-openjdk jre8-openjdk-headless java8-openjfx jdk8-openjdk && mkdir ~/.mct && mv TLauncher-2.75.jar ~/.mct/minecraft.jar && sudo mv minecraft /usr/bin/minecraft && sudo chmod +x minecraft
